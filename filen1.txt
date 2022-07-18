@@ -1,4 +1,4 @@
 echo "Hellow world"
-echo "This is git repository of Nilesh Vaghela"
+echo "This is git repository of Jitendra Choudhary"
 echo "We are testing GIT and Jenkins"
 
