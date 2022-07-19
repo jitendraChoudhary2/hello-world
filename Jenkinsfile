@@ -4,7 +4,17 @@ pipeline {
     stages { 
         stage('Build') { 
             steps { 
-               echo 'This is a minimal pipeline.' 
+               echo 'Building' 
+            }
+        }
+        stage('test') { 
+            steps { 
+               echo 'Testing' 
+            }
+        }
+        stage('Deploy') { 
+            steps { 
+               echo 'Deploying' 
             }
         }
     }
